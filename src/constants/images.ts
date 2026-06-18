@@ -1,0 +1,86 @@
+export const IMAGES = {
+  logo: '/images/logo/force-intellect-logo.png',
+  favicon: '/images/favi.png',
+  hero: '/images/hero/ForceIntellect-Slider-01.jpg',
+  heroWebp: '/images/hero/ForceIntellect-Slider-01.webp',
+  heroSrcSet: {
+    xs: '/images/hero/ForceIntellect-Slider-01-480.webp',
+    sm: '/images/hero/ForceIntellect-Slider-01-640.webp',
+    md: '/images/hero/ForceIntellect-Slider-01-1280.webp',
+    lg: '/images/hero/ForceIntellect-Slider-01.webp',
+  },
+  sections: {
+    spectrumErp: '/images/sections/spectrum-erp-manufacturing-smes.png',
+    smartSolutions: '/images/sections/smart-erp-solutions.png',
+    smartTools: '/images/sections/smart-erp-tools.png',
+    implementationStrategy: '/images/sections/erp-implementation-strategy.jpg',
+  },
+  video: {
+    erpOverview:
+      'https://www.forceintellect.com/download/Force-Intellect-ERP-Products-Solutions-for-Manufacturing-SMEs.mp4',
+  },
+  products: {
+    spectrumErp: '/images/products/spectrum-erp.jpg',
+    eProcurement: '/images/products/e-procurement.jpg',
+    mobileApps: '/images/products/mobile-apps.jpg',
+    customApplications: '/images/products/custom-applications.jpg',
+  },
+  clients: [
+    '/images/clients/01.png',
+    '/images/clients/05.png',
+    '/images/clients/08.png',
+    '/images/clients/09.png',
+    '/images/clients/20.png',
+    '/images/clients/25.png',
+    '/images/clients/31.png',
+    '/images/clients/36.png',
+    '/images/clients/39.png',
+    '/images/clients/43.png',
+    '/images/clients/46.png',
+  ],
+} as const;
+
+export const CONTACT = {
+  phone: '+91 9993533344',
+  phoneHref: 'tel:+919993533344',
+  email: 'contact@forceintellect.com',
+  emailHref: 'mailto:contact@forceintellect.com',
+  demoHref: 'https://forceintellect.com/request-a-demo/',
+  businessAssociateHref: 'https://forceintellect.com/erp-solution-business-associate/',
+  locations: [
+    {
+      city: 'Pune',
+      address: 'C - 703, Radhe Heights Ravet, Pune Maharashtra, India - 411044',
+      phone: '+91 9993533344',
+    },
+    {
+      city: 'Bhilai',
+      address:
+        'Software Technology Park of India, Room No: 6, Incubation Center Junwani Road, Bhilai, Chhattisgarh, India - 490020',
+      phone: '0788 - 4038587',
+    },
+  ],
+} as const;
+
+export const SOCIAL_LINKS = [
+  {
+    label: 'Facebook',
+    href: 'https://www.facebook.com/ForceIntellect/',
+    icon: 'facebook',
+  },
+  {
+    label: 'Twitter',
+    href: 'https://twitter.com/ForceIntellect',
+    icon: 'twitter',
+  },
+  {
+    label: 'YouTube',
+    href: 'https://www.youtube.com/channel/UCGdEauTrK1tI3hCFXMQ5-uQ',
+    icon: 'youtube',
+  },
+  {
+    label: 'LinkedIn',
+    href: 'https://www.linkedin.com/company/2689419/',
+    icon: 'linkedin',
+  },
+] as const;

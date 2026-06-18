@@ -1,0 +1,10 @@
+export { HeroSection } from './HeroSection';
+export { ClientsSection } from './ClientsSection';
+export { ErpModulesGrid } from './ErpModulesGrid';
+export { ExpertiseSection } from './ExpertiseSection';
+export { SmartErpSolutionsSection } from './SmartErpSolutionsSection';
+export { PartnershipSection } from './PartnershipSection';
+export { ImplementationStrategySection } from './ImplementationStrategySection';
+export { TestimonialsSection } from './TestimonialsSection';
+export { ProductsSection } from './ProductsSection';
+export { ContactSection } from './ContactSection';
