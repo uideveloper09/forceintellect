@@ -10,9 +10,9 @@ type SectionTitleProps = {
 } & Omit<HTMLAttributes<HTMLHeadingElement>, 'children'>;
 
 const sizeStyles = {
-  default: 'text-balance text-2xl font-bold tracking-tight text-text-primary lg:text-[1.75rem] lg:leading-tight',
-  large: 'text-balance text-2xl font-bold tracking-tight text-text-primary lg:text-3xl',
-  hero: 'text-balance text-[1.65rem] font-extrabold leading-[1.15] tracking-tight text-text-primary sm:text-[2.35rem] lg:text-[2.65rem]',
+  default: 'font-display text-balance text-2xl font-normal text-text-primary lg:text-[1.75rem] lg:leading-tight',
+  large: 'font-display text-balance text-2xl font-normal text-text-primary lg:text-3xl',
+  hero: 'font-display text-balance text-[1.65rem] font-normal leading-[1.15] text-text-primary sm:text-[2.35rem] lg:text-[2.65rem]',
 };
 
 export function SectionTitle({
