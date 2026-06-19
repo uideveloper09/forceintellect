@@ -1,5 +1,4 @@
 const baseUrl = import.meta.env.BASE_URL;
-console.log('baseUrl', import.meta.env)
 export const IMAGES = {
   logo: `${baseUrl}images/logo/force-intellect-logo.png`,
   favicon: `${baseUrl}images/favi.png`,
