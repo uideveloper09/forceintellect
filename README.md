@@ -8,6 +8,10 @@ The objective was to demonstrate modern frontend architecture, reusable componen
 
 https://uideveloper09.github.io/forceintellect/
 
+## 🔗 Repository
+
+https://github.com/uideveloper09/forceintellect
+
 ---
 
 ## 🎯 Objective
@@ -17,6 +21,7 @@ https://uideveloper09.github.io/forceintellect/
 * Demonstrate scalable React architecture
 * Showcase responsive enterprise UI design
 * Improve performance and accessibility
+* This project was created as a self-initiated exercise to understand Force Intellect's ERP domain and demonstrate frontend modernization concepts.
 
 ---
 
@@ -160,8 +165,6 @@ The project can be deployed on:
 
 ## 👨‍💻 Author
 
-**Sanjay Kr. Singh**
-
+Sanjay Kr. Singh
 Frontend Architect | React.js | Next.js | TypeScript
-
-18+ Years Experience in Frontend Engineering, Enterprise Applications and UI Architecture.
+18+ Years Experience in Frontend Engineering, Enterprise Applications, UI Architecture and Team Leadership.
