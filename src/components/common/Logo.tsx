@@ -8,7 +8,7 @@ interface LogoProps {
 export function Logo({ className }: LogoProps) {
   return (
     <a
-      href="/"
+      href={import.meta.env.BASE_URL}
       className={cn('group inline-flex shrink-0', className)}
       aria-label="Force Intellect — Home"
     >
